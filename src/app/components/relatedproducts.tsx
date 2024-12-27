@@ -14,7 +14,7 @@ const Gallery = () => {
         {/* Image 1 */}
         <div className="text-center">
           <Image
-            src="/images/sofa1.jpg" // Ensure your image path is correct (relative to the public folder)
+            src="/images/topsofa1.jpg" // Ensure your image path is correct (relative to the public folder)
             alt="Modern Lamp"
             width={287}
             height={397}
@@ -27,7 +27,7 @@ const Gallery = () => {
         {/* Image 2 */}
         <div className="text-center">
           <Image
-            src="/images/sofa2.jpg" // Ensure your image path is correct
+            src="/images/topsofa2.jpg" // Ensure your image path is correct
             alt="Elegant Chandelier"
             width={287}
             height={397}
@@ -40,7 +40,7 @@ const Gallery = () => {
         {/* Image 3 */}
         <div className="text-center py-16">
           <Image
-            src="/images/sofa3.jpg" // Ensure your image path is correct
+            src="/images/topsofa3.jpg" // Ensure your image path is correct
             alt="Stylish Floor Lamp"
             width={287}
             height={397}
@@ -53,7 +53,7 @@ const Gallery = () => {
         {/* Image 4 */}
         <div className="text-center">
           <Image
-            src="/images/sofa4.jpg" // Ensure your image path is correct
+            src="/images/topsofa4.jpg" // Ensure your image path is correct
             alt="Table Light"
             width={287}
             height={397}
