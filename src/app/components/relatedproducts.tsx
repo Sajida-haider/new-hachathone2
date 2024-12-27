@@ -20,8 +20,7 @@ const Gallery = () => {
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Modern Lamp</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+         
         </div>
 
         {/* Image 2 */}
@@ -33,12 +32,11 @@ const Gallery = () => {
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Elegant Chandelier</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+         
         </div>
 
         {/* Image 3 */}
-        <div className="text-center py-16">
+        <div className="text-center ">
           <Image
             src="/images/topsofa3.jpg" // Ensure your image path is correct
             alt="Stylish Floor Lamp"
@@ -46,8 +44,7 @@ const Gallery = () => {
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Stylish Floor Lamp</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+          
         </div>
 
         {/* Image 4 */}
@@ -59,8 +56,7 @@ const Gallery = () => {
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Table Light</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+        
         </div>
       </div>
 
