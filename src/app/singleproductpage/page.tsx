@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Cartsidebar from "@/app/components/cartsidebar"; // Ensure the correct path to your component
-import Productdescription from "@/app/components/productdescription"; // Ensure the correct path
+import Productdescription from "@/app/components/productdescription"; 
+import Relatedproduct from "@/app/components/relatedproducts";// Ensure the correct path
 import Image from "next/image";
 
 const ProductDetails = () => {
@@ -54,6 +55,7 @@ const ProductDetails = () => {
       {/* Product Description */}
       <div className="mt-10">
         <Productdescription />
+        <Relatedproduct />
       </div>
 
       {/* Sidebar */}
