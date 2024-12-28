@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-white py-8">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-600">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-600 px-4 sm:px-6">
         {/* Address Section */}
         <div>
           <p>400 University Drive Suite 200 Coral Gables,</p>
@@ -31,24 +31,28 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
       {/* Newsletter Section */}
-      <div className="text-center mt-4">
+      <div className="text-center mt-4 px-4 sm:px-6">
         <h4 className="font-bold mb-2">Newsletter</h4>
-        <form className="flex justify-center items-center">
+        <form className="flex justify-center items-center flex-wrap gap-2">
           <input
             type="email"
             placeholder="Enter Your Email Address"
-            className="border border-gray-300 p-2 w-72"
+            className="border border-gray-300 p-2 w-full sm:w-72"
           />
-          <button type="submit" className="bg-black text-white px-4 py-2 ml-2">
+          <button
+            type="submit"
+            className="bg-black text-white px-4 py-2 w-full sm:w-auto"
+          >
             SUBSCRIBE
           </button>
         </form>
-        <div className="mt-2 border-b-2 border-gray-400 w-72 mx-auto"></div>{" "}
+        <div className="mt-2 border-b-2 border-gray-400 w-full sm:w-72 mx-auto"></div>{" "}
         {/* Underline */}
       </div>
 
-      <div className="text-center mt-8 text-sm text-gray-500">
+      <div className="text-center mt-8 text-sm text-gray-500 px-4 sm:px-6">
         © 2022 Mxubel House. All rights reserved.
       </div>
     </footer>
